@@ -1,0 +1,32 @@
+body{
+    background-color: #20994A;
+    font-family: Arial, sans-serif;
+}
+#texto{
+    align: center;
+}
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td, th{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+img{
+    align-items: center;
+}
+div.nav_container {
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+}
+.menu_icon {
+    width: 30px;
+}

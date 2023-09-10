@@ -1,0 +1,44 @@
+body{
+    background-color: #20994A;
+    font-family: Arial, sans-serif;
+}
+#texto{
+    align-items: center;
+}
+p{
+    color: white;
+    text-align: justify;
+
+}
+section {
+    display: flex;
+    flex-flow: column;
+    float: left;
+    text-align: justify;
+}
+.media{
+    background-color: #008040;
+    margin: 10px;
+}
+.media p{
+    margin: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: block;
+}
+div.nav_container {
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+}
+.menu_icon {
+    width: 30px;
+}

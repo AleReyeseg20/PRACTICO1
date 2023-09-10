@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+nav {
+    width: 1200px;
+    font-size: 1.4rem;
+}
+nav ul {
+    padding-top: 15px;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    padding-left: 75px;
+    margin: 30px;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: block;
+    color: whitesmoke;
+}
+@media screen and (max-width: 480px){
+    .dropdawn {
+        position: absolute;
+        background-color: #008040;
+        width: 75%;
+        right:0;
+        top: 0;
+        bottom: 0;
+        padding: 1em;
+        max-width: 300px;
+        display: grid;
+        align-content: center;
+        gap: 1em;
+        overflow-y: auto;
+        clip-path: var(--clip,inset(0 0 100% 100%));
+        transition: clip-path .5s;
+
+    }
+}
